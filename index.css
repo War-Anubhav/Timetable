@@ -173,7 +173,7 @@ footer {
   background-color:rgb(185, 230, 204);
   box-shadow: #484848; */
 }
-$grid-breakpoints: (
+/* $grid-breakpoints: (
   xs: 0,
   sm: 576px,
   md: 768px,
@@ -259,3 +259,4 @@ $grid-breakpoints: (
 // Example
 // Apply styles starting from medium devices and up to extra large devices
 @media (min-width: 768px) and (max-width: 1199.98px) { ... }
+ */
