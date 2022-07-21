@@ -125,9 +125,9 @@ footer {
   color: 261386;
 }
 .social-menu ul {
-  position: absolute;
+  position: relative;
   top: 100%;
-  left: 100%;
+  left: 50%;
   transform: translate(-50%, -50%);
   padding: 0;
   margin: 0;
