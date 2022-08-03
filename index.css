@@ -173,6 +173,24 @@ footer {
   background-color:rgb(185, 230, 204);
   box-shadow: #484848; */
 }
+.nested
+{
+ padding: 0;
+ transition: all 1s ease;
+}
+.nested tr:hover{
+  transform: scale(1.02);
+}
+.nested td:hover{
+  background-color: #3b6b42;
+  transform: scale(1.02);
+  transition: all 1s ease;
+}
+@media only screen and (max-width: 768px) {
+  table {
+      width: 90%;
+  }
+}
 /* $grid-breakpoints: (
   xs: 0,
   sm: 576px,
