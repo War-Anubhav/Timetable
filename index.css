@@ -118,11 +118,12 @@ td:hover .overlay {
 
 footer {
   width: 100%;
-  background-color: #a7d2adb5;
-  padding: 20px 0;
+  /* background-color: #a7d2adb5; */
+  padding: 0%;
   text-align: center;
   font-family: 'Dancing Script', cursive;
   color: 261386;
+  font-size: 25px;
 }
 .social-menu ul {
   position: absolute;
@@ -190,6 +191,80 @@ footer {
   table {
       width: 90%;
   }
+}
+ .wrapper .button{
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  
+  font-size: larger;
+  text-align: center;
+  place-content: center;
+  /* float: left; */
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover{
+  width: 160px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 50px;
+  
+  width: 50px;
+  float: left;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #EB86F2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: #9FC0F9;
+} 
+.fa-brands{
+  color: #000000;
+  font-size: 30px;
+  padding: 20%;
+  line-height: 50px;
+  text-align: center;
+  transition: .5s;
+}
+.wrapper{
+  text-align: center;
+}
+.social-text{
+  text-align: center;
+  position: relative;
+  font-size: 20px;
+ top:25%;
+ font-family:'Poppins', sans-serif;
+ text-decoration: none;
+
+}
+.wrapper{
+   transform: (-50%,-50%);
+   padding: 0%;
+   margin: 0%;
+   position: relative;
+   top:0%;
+}
+#a1{
+  color: #cc0fd9;
+  padding: 0%;
+  margin: 0%;
+  border: 0%;
+}
+#a2{
+  color: #2268e1;
 }
 /* $grid-breakpoints: (
   xs: 0,
