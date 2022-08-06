@@ -111,6 +111,10 @@ td:hover .overlay {
   border: 1.5px solid #777777;
 }
 
+.room {
+  background-color: #f5f76e75;
+  border: 1.5px solid #777777;
+}
 .day {
   background-color: #fff2db75;
   border: 1.5px solid #777777;
